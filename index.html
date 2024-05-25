@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <h1>WebServices</h1>
+        </div>
+        <div class="right">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+
+            <a href="#contact">Contact-Me</a>
+            
+        </div>
+    </div>
+
+
+    <div class="main" id="home">
+        <div class="left-main">
+            <h2 class="">HI! Everyone</h2>
+            <h1 class="">I'm <span id="span">Bishal</span></h1>
+            <p class="">this is my My-Portfolio so do chechkout.If you found it helpful <br> sure to place your order</p>
+        </div>
+        <div class="right-main anim">
+            <img src="images/pfp.jpg" alt="">
+        </div>
+    </div>
+    <h1 id="about-heading">About</h1>
+    <div class="about hidden" id="about">
+
+        <div class="left-about">
+            <img src="images/pfp.jpg" alt="">
+        </div>
+        <div class="right-about">
+            <h2 id="exp">my experience</h2>
+            <div class="buttons">
+
+                <button id="my-skills" class="active">My-Skills</button>
+                <button id="experience" class="active">About-Me</button>
+            </div>
+            <div class="borders">
+
+            </div>
+            <div class="margin">
+                <div class="skills-info">
+
+                    <div class="html">
+                        <h2>html</h2>
+                        <p>70%</p>
+
+
+
+                    </div>
+                    <p id="line1"></p>
+                    <div class="css">
+                        <h2>css</h2>
+                        <p>60%</p>
+                    </div>
+                    <p id="line2"></p>
+                    <div class="js">
+                        <h2>javascript</h2>
+                        <p>80%</p>
+                    </div>
+                    <p id="line3"></p>
+                </div>
+            </div>
+
+
+            <div class="exp-info">
+                <div class="myself none">
+                    <h2>Bishal Dutta</h2>
+                    <p id="para1">Hey Guys! My name is Bishal.I am 14 years old.I am in class 8 now. I study at
+                        NGHS-Nasirabad Gov.t boys high school. This is my portfolio where you can find my introduction
+                        and also you can know about my skills.Still working on my skills and goals to be succeed. here
+                        you can ask me to build a website according to your requirments.So i have learned HTML,CSS and
+                        Javascript. You can find some great designs and also some great functions and featuers which
+                        will help you to grow....</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="option opac">
+       <a> <i class="fa-solid fa-xmark" id="close"></i></a>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+
+        <a href="#contact">Contact-Me</a>
+    </div>
+    
+    <div class="menu">
+        <a id="menu" class="btn3 visible"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    
+    <div class="services hidden" id="services">
+        <h1>Services</h1>
+        <div class="websites">
+            <div class="sec logo1">
+                <img src="images/webdesign.jpg" alt="">
+                <div class="layer">
+                    <h3>Simple-Website</h3>
+                    <p>here you eill find some simple designs and funtionality</p>
+                    <a href=""><i class="fa-solid fa-shop"></i></a>
+                </div>
+            </div>
+            <div class="sec logo2">
+                <img src="images/img2.jpg" alt="">
+                <div class="layer">
+                    <h3>Simple-Website</h3>
+                    <p>here you will find some simple designs and funtionality</p>
+                    <a href=""><i class="fa-solid fa-shop"></i></a>
+                </div>
+            </div>
+            <div class="sec logo3">
+                <img src="images/img3.jpg" alt="">
+                <div class="layer">
+                    <h3>Simple-Website</h3>
+                    <p>here you eill find some simple designs and funtionality</p>
+                    <a href=""><i class="fa-solid fa-shop"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="contact hidden" id="contact">
+            <div class="left">
+                <h2>Contact-Me</h2>
+                <p><a href="https://gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>bishalsdrawing@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01914-464506</p>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="right-contact">
+                <input type="text" placeholder="Your-name" id="name">
+                <input type="email" name="" id="email" placeholder="Email">
+                <input type="text" placeholder="password" id="password">
+                <input type="text" placeholder="review" id="review">
+                
+                <div class="contact-btn">
+                    <button id="submit">
+                        Submit
+                    </button>
+                    
+                </div>
+                <p id="empty"></p>
+              
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
